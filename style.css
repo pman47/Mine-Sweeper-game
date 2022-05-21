@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 5px solid gray;
+  background-color: gray;
+  display: grid;
+  grid-template: repeat(9, 50px) / repeat(9, 50px);
+  grid-gap: 5px;
+  margin-right: 50px;
+}
+
+.cell {
+  /* height: 50px;
+    width: 50px; */
+  background-color: white;
+  cursor: pointer;
+}
+
+.safe {
+  background-color: green;
+}
+
+.containBomb {
+  background-color: red;
+}
