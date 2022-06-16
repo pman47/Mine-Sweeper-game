@@ -40,7 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 200px;
+  height: auto;
   background: #d8d8d8;
   width: 200px;
   font-size: 1.3rem;
@@ -56,6 +56,14 @@ body {
   font-size: 1rem;
   padding: 0.5rem 2rem;
   border-radius: 0.3rem;
+}
+
+.right #gameScorePara {
+  margin-bottom: 0.8rem;
+}
+
+.right #gameResultPara {
+  margin-top: 0.8rem;
 }
 
 .cell {
