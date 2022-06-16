@@ -40,6 +40,7 @@ function revealBombs(cell_id) {
   for (let b of window.random) {
     document.getElementById(`cell_${b}`).style.backgroundImage =
       "url(https://img.icons8.com/emoji/48/000000/bomb-emoji.png)";
+    document.getElementById(`cell_${b}`).style.backgroundSize = "cover";
   }
 
   for (let i = 1; i <= 81; i++) {
